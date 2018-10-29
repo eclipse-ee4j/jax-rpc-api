@@ -21,6 +21,7 @@ The project maintains the following source code repositories
 * https://github.com/eclipse-ee4j/enterprise-deployment
 * https://github.com/eclipse-ee4j/jaxr-api
 * https://github.com/eclipse-ee4j/jax-rpc-api
+* https://github.com/eclipse-ee4j/management-api
 
 ## Eclipse Contributor Agreement
 
