@@ -22,7 +22,7 @@
     <parent>
         <groupId>org.eclipse.ee4j</groupId>
         <artifactId>project</artifactId>
-        <version>1.0.2</version>
+        <version>1.0.4</version>
     </parent>
     <groupId>jakarta.xml.rpc</groupId>
     <artifactId>jakarta.xml.rpc-api</artifactId>
@@ -32,7 +32,7 @@
         <extension.name>javax.xml.rpc</extension.name>
         <spec.version>1.1</spec.version>
         <bundle.symbolicName>javax.xml.rpc-api</bundle.symbolicName>         
-        <vendor.name>Oracle Corporation</vendor.name>
+        <vendor.name>Eclipse Project for Stable EE4J APIs</vendor.name>
         <implementation.vendor.id>org.glassfish</implementation.vendor.id>
         <findbugs.version>2.3.1</findbugs.version>
         <findbugs.exclude>exclude.xml</findbugs.exclude>
@@ -42,10 +42,6 @@
     <description>Eclipse Project for Stable EE4J APIs</description>
     <inceptionYear>2012</inceptionYear>
     
-    <organization>
-        <name>Oracle Corporation</name>
-        <url>http://www.oracle.com</url>
-    </organization>
     <licenses>
         <license>
             <name>EPL 2.0</name>
@@ -279,9 +275,9 @@
     
     <dependencies>
         <dependency>
-           <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
-            <version>4.0.0</version>
+           <groupId>jakarta.servlet</groupId>
+            <artifactId>jakarta.servlet-api</artifactId>
+            <version>4.0.2</version>
             <optional>true</optional>
         </dependency>
     </dependencies> 
