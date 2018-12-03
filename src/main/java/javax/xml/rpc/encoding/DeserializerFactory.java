@@ -34,6 +34,7 @@ public interface DeserializerFactory extends java.io.Serializable {
    * 
    *  @param  mechanismType  XML processing mechanism type [TBD:
    *                         definition of valid constants]
+   *  @return a Deserializer for the specified type
    *  @throws JAXRPCException  If DeserializerFactory does not 
    *          support the specified XML processing mechanism
   **/

@@ -16,6 +16,7 @@
 
 package javax.xml.rpc.server;
 
+import javax.xml.rpc.JAXRPCException;
 import javax.xml.rpc.ServiceException;
 import javax.servlet.ServletContext;
 import javax.xml.rpc.handler.MessageContext;

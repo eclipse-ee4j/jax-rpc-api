@@ -34,6 +34,7 @@ public interface SerializerFactory extends java.io.Serializable {
    * 
    *  @param  mechanismType  XML processing mechanism type [TBD:
    *                         definition of valid constants]
+   *  @return a Serializer of the required type
    *  @throws JAXRPCException  If SerializerFactory does not 
    *          support the specified XML processing mechanism
    *  @throws java.lang.IllegalArgumentException If an invalid

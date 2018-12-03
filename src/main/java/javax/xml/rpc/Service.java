@@ -198,9 +198,9 @@ public interface Service {
    *  types types as required by the JAX-RPC specification. 
    *
    *  @return The TypeMappingRegistry for this Service object.
-   *  @throws <code>java.lang.UnsupportedOperationException<code>
+   *  @throws java.lang.UnsupportedOperationException
    *          if the <code>Service</code> class does not support
-   *          the configuration of <code>TypeMappingRegistry</code>.
+   *          the configuration of {@link TypeMappingRegistry}.
   **/
   public TypeMappingRegistry getTypeMappingRegistry();
 
@@ -208,9 +208,9 @@ public interface Service {
   /** Returns the configured <code>HandlerRegistry</code> instance
    *  for this <code>Service</code> instance.
    *  @return HandlerRegistry
-   *  @throws <code>java.lang.UnsupportedOperationException</code>
+   *  @throws java.lang.UnsupportedOperationException
    *          if the <code>Service</code> class does not support 
-   *          the configuration of a <code>HandlerRegistry</code>
+   *          the configuration of a {@link HandlerRegistry}
   **/
   public HandlerRegistry getHandlerRegistry();
 }
