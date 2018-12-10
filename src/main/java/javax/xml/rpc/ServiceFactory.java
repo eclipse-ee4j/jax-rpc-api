@@ -63,6 +63,9 @@ public abstract class ServiceFactory {
    *
    * <p> The implementation class to be used can be overridden by 
    * setting the javax.xml.rpc.ServiceFactory system property.
+   * @return the ServiceFactory
+   * @throws javax.xml.rpc.ServiceException if a ServiceFactory could
+   * not be created
   **/
   public static ServiceFactory newInstance() throws ServiceException {
     try {
@@ -82,6 +85,7 @@ public abstract class ServiceFactory {
    *  @param wsdlDocumentLocation URL for the WSDL document location
    *                              for the service
    *  @param serviceName QName for the service
+   *  @return the new service
    *  @throws ServiceException If any error in creation of the
    *                     specified service
   **/
@@ -93,6 +97,7 @@ public abstract class ServiceFactory {
   /** Create a <code>Service</code> instance.
    *
    *  @param serviceName QName for the service
+   *  @return the new service
    *  @throws ServiceException If any error in creation of the
    *                     specified service
   **/
@@ -105,6 +110,7 @@ public abstract class ServiceFactory {
    * for a given service interface, if available.
    *
    *  @param serviceInterface Service interface
+   *  @return the new service
    *  @throws ServiceException If there is any error while creating the
    *                     specified service, including the case where
    *                     a generated service implementation class cannot
@@ -128,6 +134,7 @@ public abstract class ServiceFactory {
    *  @param properties A set of implementation-specific properties
    *                    to help locate the generated service
    *                    implementation class
+   *  @return the new service
    *  @throws ServiceException If there is any error while creating the
    *                     specified service, including the case where
    *                     a generated service implementation class cannot
@@ -155,6 +162,7 @@ public abstract class ServiceFactory {
    *  @param properties A set of implementation-specific properties
    *                    to help locate the generated service
    *                    implementation class
+   *  @return the new service
    *  @throws ServiceException If there is any error while creating the
    *                     specified service, including the case where
    *                     a generated service implementation class cannot

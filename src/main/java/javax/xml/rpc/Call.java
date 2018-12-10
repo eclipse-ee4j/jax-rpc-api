@@ -125,7 +125,7 @@ public interface Call {
    *                     <code>ParameterMode.OUT</code>,
    *                     or <code>ParameterMode.INOUT</code>,
    *
-   *  @throws javax.xml.rpc.JAXRPCException: This exception may
+   *  @throws javax.xml.rpc.JAXRPCException This exception may
    *          be thrown if the method <code>isParameterAndReturnSpecRequired</code>
    *          returns <code>false</code> for this operation.
    *  @throws java.lang.IllegalArgumentException If any illegal

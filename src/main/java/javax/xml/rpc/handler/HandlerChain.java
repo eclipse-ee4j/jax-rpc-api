@@ -19,6 +19,7 @@ package javax.xml.rpc.handler;
 import java.util.List;
 import java.util.Map;
 import java.util.Iterator;
+import javax.xml.rpc.JAXRPCException;
 
 /** The <code>javax.xml.rpc.handler.HandlerChain</code> represents
  *  a list of handlers. All elements in the HandlerChain are of 

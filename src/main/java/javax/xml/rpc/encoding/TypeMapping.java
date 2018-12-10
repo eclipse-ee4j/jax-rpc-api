@@ -106,6 +106,8 @@ public interface TypeMapping {
   /** Removes the SerializerFactory registered for the specified
    *  pair of Java type and XML data type.
    * 
+   *  @param javaType class to remove the Serializer for
+   *  @param xmlType Qualified Name of the XML type
    *  @throws JAXRPCException If there is error in removing the
    *          registered SerializerFactory
   **/
@@ -114,6 +116,8 @@ public interface TypeMapping {
   /** Removes the DeserializerFactory registered for the specified
    *  pair of Java type and XML data type.
    * 
+   *  @param javaType class to remove the Deserializer for
+   *  @param xmlType Qualified Name of the XML type
    *  @throws JAXRPCException If there is error in removing the
    *          registered DeserializerFactory
   **/
