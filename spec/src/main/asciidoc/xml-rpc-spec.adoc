@@ -4,7 +4,7 @@
 
 = Jakarta XML RPC 1.1
 :authors: Jakarta XML RPC Team, https://projects.eclipse.org/projects/ee4j.jakartaee-stable
-:email: https://dev.eclipse.org/mailman/listinfo/xml.rpc-api-dev
+:email: https://dev.eclipse.org/mailman/listinfo/jakartaee-stable-dev
 :version-label!:
 :doctype: book
 :license: Eclipse Foundation Specification License v1.0
