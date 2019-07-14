@@ -265,7 +265,7 @@ public interface Call {
   **/
   public String getTargetEndpointAddress();
 
-  /** Sets the value for a named property. JAX-RPC specification 
+  /** Sets the value for a named property. Jakarta XML RPC specification
    *  specifies a standard set of properties that may be passed 
    *  to the <code>Call.setProperty</code> method. 
    *

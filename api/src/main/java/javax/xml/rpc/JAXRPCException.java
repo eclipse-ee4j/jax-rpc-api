@@ -17,8 +17,8 @@
 package javax.xml.rpc;
 
 /** The <code>javax.xml.rpc.JAXRPCException</code> is thrown from 
- *  the core JAX-RPC APIs to indicate an exception related to the 
- *  JAX-RPC runtime mechanisms.
+ *  the core Jakarta XML RPC APIs to indicate an exception related to the
+ *  Jakarta XML RPC runtime mechanisms.
  *
  *  @version 1.0
  *  @author  Rahul Sharma

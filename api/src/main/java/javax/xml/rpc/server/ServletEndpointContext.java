@@ -25,14 +25,14 @@ import javax.servlet.http.HttpSession;
 
 /** The <code>ServletEndpointContext</code> provides an endpoint 
  *  context maintained by the underlying servlet container based
- *  JAX-RPC runtime system. For service endpoints deployed on a 
- *  servlet container based JAX-RPC runtime system, the context 
+ *  Jakarta XML RPC runtime system. For service endpoints deployed on a
+ *  servlet container based Jakarta XML RPC runtime system, the context
  *  parameter in the <code>ServiceLifecycle.init</code> method is
  *  required to be of the Java type 
  *  <code>javax.xml.rpc.server.ServletEndpointContext</code>.
  *
- *  <p>A servlet container based JAX-RPC runtime system implements
- *  the <code>ServletEndpointContext</code> interface. The JAX-RPC
+ *  <p>A servlet container based Jakarta XML RPC runtime system implements
+ *  the <code>ServletEndpointContext</code> interface. The Jakarta XML RPC
  *  runtime system is required to provide appropriate session, 
  *  message context, servlet context and user principal information 
  *  per method invocation on the endpoint class.
@@ -71,7 +71,7 @@ public interface ServletEndpointContext {
    *  contains the name of the authenticated user for the current
    *  method invocation on the endpoint instance. This method returns
    *  <code>null</code> if there is no associated principal yet. 
-   *  The underlying JAX-RPC runtime system takes the responsibility
+   *  The underlying Jakarta XML RPC runtime system takes the responsibility
    *  of providing the appropriate authenticated principal for a 
    *  remote method invocation on the service endpoint instance.
    *
@@ -93,7 +93,7 @@ public interface ServletEndpointContext {
    *  This method returns <code>null</code> if there is no HTTP 
    *  session currently active and associated with this service 
    *  endpoint. An endpoint class should not rely on an active 
-   *  HTTP session being always there; the underlying JAX-RPC
+   *  HTTP session being always there; the underlying Jakarta XML RPC
    *  runtime system is responsible for managing whether or not 
    *  there is an active HTTP session.
 

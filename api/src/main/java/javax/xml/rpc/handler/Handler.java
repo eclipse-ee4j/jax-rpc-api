@@ -54,7 +54,7 @@ public interface Handler {
    *                     of the request handler chain. In this case, 
    *                     further processing of the request handler chain
    *                     is blocked and the target service endpoint is 
-   *                     not dispatched. The JAX-RPC runtime system takes
+   *                     not dispatched. The Jakarta XML RPC runtime system takes
    *                     the responsibility of invoking the response 
    *                     handler chain next with the SOAPMessageContext. 
    *                     The Handler implementation class has the the 

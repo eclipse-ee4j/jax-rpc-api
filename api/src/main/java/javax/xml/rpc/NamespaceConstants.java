@@ -16,7 +16,7 @@
 
 package javax.xml.rpc;
 
-/** Constants used in JAX-RPC for namespace prefixes and URIs
+/** Constants used in Jakarta XML RPC for namespace prefixes and URIs
  *  @version 1.0
  *  @author  Rahul Sharma
 **/
