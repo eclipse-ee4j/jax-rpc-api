@@ -76,7 +76,7 @@ public interface Service {
    *  stub implementation class or a dynamic proxy. The parameter 
    *  <code>serviceEndpointInterface</code> specifies the service 
    *  endpoint interface that is supported by the returned stub or
-   *  proxy. In the implementation of this method, the JAX-RPC 
+   *  proxy. In the implementation of this method, the Jakarta XML RPC
    *  runtime system takes the responsibility of selecting a protocol
    *  binding (and a port) and configuring the stub accordingly. 
    *  The returned <code>Stub</code> instance should not be 
@@ -195,7 +195,7 @@ public interface Service {
    *  <code>Service</code> object. The returned 
    *  <code>TypeMappingRegistry</code> instance is pre-configured 
    *  to support the standard type mapping between XML and Java 
-   *  types types as required by the JAX-RPC specification. 
+   *  types types as required by the Jakarta XML RPC specification.
    *
    *  @return The TypeMappingRegistry for this Service object.
    *  @throws java.lang.UnsupportedOperationException
