@@ -142,7 +142,7 @@
                     <sourceDocumentName>xml-rpc-spec.adoc</sourceDocumentName>
                     <sourceHighlighter>coderay</sourceHighlighter>
                     <attributes>
-                        <revnumber>${project.version}</revnumber>
+                        <revnumber>${spec.version}</revnumber>
                         <revremark>${status}</revremark>
                         <revdate>${revisiondate}</revdate>
                     </attributes>
